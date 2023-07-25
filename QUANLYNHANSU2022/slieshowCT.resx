@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="label6.Text" xml:space="preserve">
+    <value>MỤC TIÊU CÔNG TY
+Không ngừng trao dồi phát triễn về lập trình để tạo ra các sản phẩm tốt nhất cho người dùng.
+Mục tiêu trong 1 năm tới, chúng tôi sẽ trở thành 1 trong những doanh nghiệp hàng đầu về công nghệ.
+
+GIẢI THƯỞNG
+Top 10 về lĩnh vực công nghệ có thành tích xuất sắc nhất. 
+ Bằng khen tài năng trẻ.
+
+CHỨNG CHỈ
+ Chứng chỉ hoàn thành khóa học lập trình Windows
+ Toeic 450
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>KINH NGHIỆM LÀM VIỆC
+Công ty Phần mềm IT Song Nguyên
+Thước đo chất lượng Khách hàng là người đánh giá trung thực và khách quan nhất về các sản phẩm phần mềm. Do vậy việc thỏa mãn một cách tốt nhất các nhu cầu về phần mềm để phục vụ sản xuất kinh doanh là tiêu thức được đặt ra hàng đầu với IT Song Nguyên.
+ Với IT Song Nguyên con người là yếu tố trọng tâm của sự phát triển và để tạo được niềm tin và sự say mê công việc của các thành viên trong công ty, ngoài việc tạo ra các giá trị tinh thần, giá trị vật chất đích thực IT Song Nguyên còn không ngừng đặt ra các mục tiêu phấn đấu nhằm nâng cao về mức sống cho các thành viên của mình.
+
+Hoàn thiện và phát triển
+Ý thức được tầm quan trọng của chất lượng dịch vụ trong công nghệ thông tin, IT Song Nguyên đã tiến hành xây dựng triển khai hệ thống quản lý chất lượng theo tiêu chuẩn ISO và đã áp dụng thành công hệ thống này. 
+ IT Song Nguyên cam kết mang đến cho khách hàng những sản phẩm, dịch vụ và giải pháp hoàn chỉnh trong việc “quản lý hệ thống nhân sự".
+Trên nguyên tắc để IT Song Nguyên trở thành “Bí quyết quản trị doanh nghiệp” thì sự thành công, tín nhiệm của khách hàng là động lực để IT Song Nguyên hướng tới và phát triển.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>GIỚI THIỆU CÔNG TY
+Được thành lập từ 2 lập trình viên trẻ, với sứ mệnh trở thành đơn vị cung cấp nhân lực kỹ sư phần mềm chất lượng cao, cung cấp các giải pháp, dịch vụ CNTT cho thị trường trong nước và quốc tế.  Tự hào là một trong những doanh nghiệp hàng đầu Việt Nam trong lĩnh vực phát triển, cung cấp các giải pháp và dịch vụ phần mềm. Chia sẻ chung những tiêu chí tiên quyết cho sự phát triển của IT Song Nguyên: Sáng tạo, Chuyên nghiệp, Đồng đội. Luôn nỗ lực Chia sẻ chung những tiêu chí tiên quyết cho sự phát triển của IT Song Nguyên: Sáng tạo, Chuyên nghiệp, Đồng đội. Luôn nỗ lực không ngừng để xây dựng một tập thể vững mạnh, tiên phong trong nền công nghệ Việt Nam và ngày một vươn xa ra thế giới.
+Thế mạnh của IT Song Nguyên là hiểu biết chế độ nhân sự Việt Nam, đặc thù quản lý của các doanh nghiệp Việt Nam cũng như kế toán quốc tế và có kinh nghiệm triển khai phần mềm.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</value>
+  </data>
+</root>
